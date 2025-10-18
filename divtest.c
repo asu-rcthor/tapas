@@ -13,4 +13,8 @@ int main() {
 	printf("%d\n", x / 8);
 	printf("%d\n", x / 9);
 	printf("%d\n", x / 10);
+	signed int* y = &x;
+	printf("%d\n", *y / 1);
+	printf("%d\n", *y / 2);
+	printf("%d\n", *y / 3);
 }
